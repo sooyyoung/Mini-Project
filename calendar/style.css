@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500&display=swap");
+
+@keyframes loop {
+  0% {
+    top: 0px;
+    left: 0px;
+  }
+  50% {
+    top: 0px;
+    left: 300px;
+  }
+  100% {
+    top: 0px;
+    left: 0px;
+  }
+}
+
+body,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  width: 700px;
+  margin: 0 auto;
+  font-family: "Chakra Petch", sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  display: inline-block;
+  color: orangered;
+}
+
+img {
+  width: 150px;
+  vertical-align: middle;
+  position: relative;
+  animation: loop 1s infinite;
+}
+
+table,
+tr,
+th,
+td {
+  border-collapse: collapse;
+  text-align: center;
+  padding: 5px;
+}
+
+caption {
+  font-size: 26px;
+  font-weight: bold;
+  color: orange;
+}
+
+.april,
+.may,
+.june,
+.July {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 20px 20px 20px;
+}
+
+.sun,
+.red {
+  color: red;
+}

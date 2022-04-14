@@ -1,0 +1,89 @@
+body,
+p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  padding: 20px;
+  background-color: rgb(235, 230, 245);
+  overflow: hidden;
+}
+
+/* header */
+.header {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.header h1 {
+  border-top: 9px solid rgb(83, 33, 162);
+  padding: 20px 25px;
+}
+
+.header p {
+  padding: 0 25px 20px 25px;
+}
+
+/* askForm */
+fieldset {
+  margin: 20px 0;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+
+fieldset p {
+  margin-bottom: 20px;
+}
+
+fieldset small {
+  color: #aaa;
+  margin-bottom: 15px;
+  display: block;
+}
+
+fieldset div {
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="number"] {
+  border-style: none;
+  border-bottom: 1px solid #ddd;
+}
+
+select#ask {
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 10px 10px;
+}
+
+select#hour {
+  border-style: none;
+}
+
+button.sub {
+  background-color: rgb(83, 33, 162);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 25px;
+  float: left;
+  cursor: pointer;
+}
+
+button.res {
+  color: rgb(83, 33, 162);
+  border-style: none;
+  background: none;
+  padding: 10px 0;
+  float: right;
+  cursor: pointer;
+}
