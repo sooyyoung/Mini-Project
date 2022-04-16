@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown-selectbox</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="select-btn"onclick="toggleButton" ><p>최애 프로그래밍 언어</p></div>
+    <ul id="language-list" onclick="javascipt:toggleButton()">
+       <li>
+            <p>Python</p>
+        </li>
+        <li>
+            <p>Java</p>
+        </li>
+        <li>
+            <p>Javascript</p>
+        </li>
+        <li>
+            <p>C#</p>
+        </li>
+        <li>
+            <p>C/C++</p>
+        </li>
+    </ul>
+
+    <script>
+        function toggleButton() {
+            if($("#language-list").css("display") == "none"){
+                $("#language-list").show();
+            }else{
+                $("#language-list").hide();
+            }
+        }
+    </script>
+</body>
+</html>
