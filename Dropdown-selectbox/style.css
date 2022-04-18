@@ -25,13 +25,14 @@ body {
     background: url(image/icon-Triangle-down.png) no-repeat;
     background-position: 90% 50%;
     margin-bottom: 6px;
+    cursor: pointer;
 }
 .select-btn p {
     margin-left: 13px;
     line-height: 40px;
     font-size: 14px;
 }
-#language-list {
+.language-list {
     width: 200px;
     height: 200px;
     border: 1px solid #C4C4C4;
@@ -40,20 +41,17 @@ body {
     border-radius: 10px;
     display: none;
 }
-#language-list-open {
-    display: block;
-}
-#language-list li {
+.language-list li {
     width: 200px;
     height: 40px;
     line-height: 40px;
     
 }
-#language-list li p {
+.language-list li p {
     margin-left: 13px;
     font-size: 14px;
 }
-#language-list li:hover {
+.language-list li:hover {
     width: 184px;
     height: 30px;
     border-radius: 8px;
