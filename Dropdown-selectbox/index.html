@@ -8,31 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="select-btn"onclick="toggleButton" ><p>최애 프로그래밍 언어</p></div>
-    <ul id="language-list" onclick="javascipt:toggleButton()">
-       <li>
-            <p>Python</p>
-        </li>
-        <li>
-            <p>Java</p>
-        </li>
-        <li>
-            <p>Javascript</p>
-        </li>
-        <li>
-            <p>C#</p>
-        </li>
-        <li>
-            <p>C/C++</p>
-        </li>
+    <div class="select-btn" onclick="toggleButton()"><p>최애 프로그래밍 언어</p></div>
+    <ul class="language-list" id="language-list">
+        <li><p>Python</p></li>
+        <li><p>Java</p></li>
+        <li><p>Javascript</p> </li>
+        <li><p>C#</p></li>
+        <li><p>C/C++</p> </li>
     </ul>
-
     <script>
         function toggleButton() {
-            if($("#language-list").css("display") == "none"){
-                $("#language-list").show();
-            }else{
-                $("#language-list").hide();
+            if(document.getElementById('language-list').style.display === 'none'){
+                document.getElementById('language-list').style.display = 'block';
+            } else {
+                document.getElementById('language-list').style.display = 'none';
             }
         }
     </script>
