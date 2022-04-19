@@ -6,24 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropdown-selectbox</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
-    <div class="select-btn" onclick="toggleButton()"><p>최애 프로그래밍 언어</p></div>
-    <ul class="language-list" id="language-list">
-        <li><p>Python</p></li>
-        <li><p>Java</p></li>
-        <li><p>Javascript</p> </li>
-        <li><p>C#</p></li>
-        <li><p>C/C++</p> </li>
-    </ul>
-    <script>
-        function toggleButton() {
-            if(document.getElementById('language-list').style.display === 'none'){
-                document.getElementById('language-list').style.display = 'block';
-            } else {
-                document.getElementById('language-list').style.display = 'none';
-            }
-        }
-    </script>
+    <article class="cont-select">
+        <h2 class="txt-hide">최애 프로그래밍 언어를 선택해주세요.</h2>
+        <button type="button" class="select-btn txt-ellipsis">최애 프로그래밍 언어</button>
+        <ul class="list-language">
+            <li><button type="button" class="txt-ellipsis">Python</button></li>
+            <li><button type="button" class="txt-ellipsis">Java</button></li>
+            <li><button type="button" class="txt-ellipsis">JavaScript</button></li>
+            <li><button type="button" class="txt-ellipsis">C#</button></li>
+            <li><button type="button" class="txt-ellipsis">C/C++</button></li>
+        </ul>
+    </article>
 </body>
 </html>
