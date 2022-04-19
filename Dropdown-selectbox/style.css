@@ -1,60 +1,53 @@
-/* reset */
-* {
-    margin: 0;
-    padding: 0;
-}
-ul, li {
-    list-style: none;
-}
-button {
-    border-style: none;
-} 
-
-body {
-    padding: 50px
-}
-
-
-/* design */
-.select-btn {
+.cont-select {
     width: 200px;
-    height: 40px;
+    margin: 100px auto 0;    
+}
+
+.select-btn {
+    width: 100%;
+    padding: 13px 20px 13px 14px;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: left;
     border: 1px solid #c4c4c4;
     box-sizing: border-box;
     border-radius: 10px;
     background: url(image/icon-Triangle-down.png) no-repeat;
-    background-position: 90% 50%;
-    margin-bottom: 6px;
+    background-position: right 14px center;  
     cursor: pointer;
 }
-.select-btn p {
-    margin-left: 13px;
-    line-height: 40px;
-    font-size: 14px;
+.select-btn:focus {
+    outline: 3px solid #F8E4FF;
+    border: 1px solid #9B51E0;
 }
-.language-list {
-    width: 200px;
-    height: 200px;
-    border: 1px solid #C4C4C4;
-    box-sizing: border-box;
-    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
-    border-radius: 10px;
+.select-btn.on {
+    background-image: url(image/icon-Triangle-up.png);
+}
+.select-btn.on+.list-language {
+    display: block;
+}
+
+.list-language {
     display: none;
+    margin-top: 20px;
+    border: 1px solid #c4c4c4;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
 }
-.language-list li {
-    width: 200px;
-    height: 40px;
-    line-height: 40px;
-    
+.list-language li {
+    padding: 5px 8px;
 }
-.language-list li p {
-    margin-left: 13px;
-    font-size: 14px;
-}
-.language-list li:hover {
-    width: 184px;
-    height: 30px;
+.list-language li button {
+    display: block;
+    width: 100%;
+    padding: 10px 10px;
+    border: none;
     border-radius: 8px;
+    cursor: pointer;
+    background-color: #fff;
+    text-align: left;
+}
+.list-language li button:focus,
+.list-language li button:hover {
     background-color: #F8E4FF;
-    /* margin: 5px 8px; */
 }
