@@ -9,11 +9,8 @@ ul, li {
 
 button {
     border-style: none;
+    cursor: pointer;
 } 
-
-body {
-    padding: 50px
-}
 
 .txt-hide {
     position: absolute;
