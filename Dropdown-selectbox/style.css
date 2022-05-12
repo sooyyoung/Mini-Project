@@ -16,15 +16,14 @@
     background-position: right 14px center;  
     cursor: pointer;
 }
+
 .select-btn:focus {
     outline: 3px solid #F8E4FF;
     border: 1px solid #9B51E0;
 }
+
 .select-btn.on {
     background-image: url(image/icon-Triangle-up.png);
-}
-.select-btn.on+.list-language {
-    display: block;
 }
 
 .list-language {
@@ -34,9 +33,15 @@
     box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
 }
-.list-language li {
-    padding: 5px 8px;
+
+.select-btn.on+.list-language {
+    display: block;
 }
+
+.list-language li {
+    padding: 7px;
+}
+
 .list-language li button {
     display: block;
     width: 100%;
@@ -47,6 +52,7 @@
     background-color: #fff;
     text-align: left;
 }
+
 .list-language li button:focus,
 .list-language li button:hover {
     background-color: #F8E4FF;
