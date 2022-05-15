@@ -51,7 +51,7 @@
     text-align: left;
 }
 
-.list-language li button:focus,
+.list-language li button:active,
 .list-language li button:hover {
     background-color: #F8E4FF;
 }
