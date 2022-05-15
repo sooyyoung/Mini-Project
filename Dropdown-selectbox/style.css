@@ -14,7 +14,6 @@
     border-radius: 10px;
     background: url(image/icon-Triangle-down.png) no-repeat;
     background-position: right 14px center;  
-    cursor: pointer;
 }
 
 .select-btn:focus {
@@ -48,7 +47,6 @@
     padding: 10px 10px;
     border: none;
     border-radius: 8px;
-    cursor: pointer;
     background-color: #fff;
     text-align: left;
 }
