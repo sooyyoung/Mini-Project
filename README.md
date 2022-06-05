@@ -8,6 +8,12 @@
 
 <br>
 
+### wysiwyg 에디터
+
+<a href="https://sooyyoung.github.io/MiniProject/WYSIWYG/">DEMO</a>
+
+<br>
+
 ### 2022 멋쟁이사자 달력
 
 <a href="https://sooyyoung.github.io/MiniProject/calendar/">DEMO</a>
