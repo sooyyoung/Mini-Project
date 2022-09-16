@@ -14,12 +14,6 @@
 
 <br>
 
-### 2022 멋쟁이사자 달력
-
-<a href="https://sooyyoung.github.io/MiniProject/calendar/">DEMO</a>
-
-<br>
-
 ### google form
 
 <a href="https://sooyyoung.github.io/MiniProject/googleform/">DEMO</a>
