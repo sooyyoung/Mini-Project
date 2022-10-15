@@ -1,4 +1,4 @@
-## 📌 Mini Project Collection
+## 📌 Mini Project
 
 <a href="https://imgur.com/kJELcQw"><img src="https://i.imgur.com/aasY15A.gif" title="source: imgur.com" width="900"/></a>
 
@@ -7,6 +7,6 @@
 <br>
 
 #### ⚙️ 구현 기능
-- <a href="https://sooyyoung.github.io/MiniProject/Dropdown-selectbox/">Dropdown-SelectBox 커스텀</a>
-- <a href="https://sooyyoung.github.io/MiniProject/WYSIWYG/">WYSIWYG 에디터</a>
-- <a href="https://sooyyoung.github.io/MiniProject/carousel/">Carousel Slide</a>
+- <a href="https://sooyyoung.github.io/Mini-Project/Dropdown-selectbox/">Dropdown-SelectBox 커스텀</a>
+- <a href="https://sooyyoung.github.io/Mini-Project/WYSIWYG/">WYSIWYG 에디터</a>
+- <a href="https://sooyyoung.github.io/Mini-Project/carousel/">Carousel Slide</a>
