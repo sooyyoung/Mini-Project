@@ -1,0 +1,23 @@
+.checkbox {
+  width: 300px;
+  margin: 100px auto 0;
+  padding: 10px 20px;
+  border: 1px solid #bdbdbd;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+p {
+  display: inline-block;
+}
+
+.allCheck {
+  border-bottom: 1px solid #bdbdbd;
+}
