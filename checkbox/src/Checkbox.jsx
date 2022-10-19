@@ -1,7 +1,7 @@
 import React from "react";
 
 const Checkbox = () => {
-  const formData = [
+  const data = [
     { id: 1, name: "딸기🍓" },
     { id: 2, name: "바나나🍌" },
     { id: 3, name: "포도🍇" },
@@ -21,16 +21,18 @@ const Checkbox = () => {
           <p>전체 선택</p>
         </label>
       </div>
-      {formData.map((item) => {
-        return (
-          <div className="check">
-            <label key={item.id}>
-              <input type="checkbox" value={item.name} />
-              <p>{item.name}</p>
-            </label>
-          </div>
-        );
-      })}
+      <ul>
+        {data.map((item) => {
+          return (
+            <li className="check">
+              <label key={item.id}>
+                <input type="checkbox" value={item.name} />
+                <p>{item.name}</p>
+              </label>
+            </li>
+          );
+        })}
+      </ul>
     </div>
   );
 };

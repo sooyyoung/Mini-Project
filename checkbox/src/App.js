@@ -1,4 +1,4 @@
-import "./App.css";
+import "./App.scss";
 import Checkbox from "./Checkbox";
 
 function App() {

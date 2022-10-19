@@ -1,8 +1,10 @@
+$gray: #bdbdbd;
+
 .checkbox {
   width: 300px;
   margin: 100px auto 0;
   padding: 10px 20px;
-  border: 1px solid #bdbdbd;
+  border: 1px solid $gray;
   border-radius: 10px;
   box-sizing: border-box;
 }
@@ -18,6 +20,13 @@ p {
   display: inline-block;
 }
 
+ul,
+li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .allCheck {
-  border-bottom: 1px solid #bdbdbd;
+  border-bottom: 1px solid $gray;
 }
