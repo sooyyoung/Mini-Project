@@ -1,8 +1,16 @@
 $gray: #bdbdbd;
 
-.checkbox {
-  width: 300px;
-  margin: 100px auto 0;
+.wrap {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: 100px 0;
+  font-size: 18px;
+}
+
+.checkbox,
+.selectFruit {
+  width: 250px;
   padding: 10px 20px;
   border: 1px solid $gray;
   border-radius: 10px;
@@ -12,7 +20,7 @@ $gray: #bdbdbd;
 input[type="checkbox"] {
   width: 15px;
   height: 15px;
-  margin-right: 10px;
+  margin-right: 12px;
   vertical-align: middle;
 }
 
@@ -29,4 +37,18 @@ li {
 
 .allCheck {
   border-bottom: 1px solid $gray;
+}
+
+.selectFruit strong {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.selectFruit ul {
+  margin-top: 30px;
+  text-align: center;
+  li + li {
+    margin: 20px;
+  }
 }
