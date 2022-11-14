@@ -1,6 +1,6 @@
 ## 📌 Mini Project
 
-<a href="https://imgur.com/kJELcQw"><img src="https://i.imgur.com/aasY15A.gif" title="source: imgur.com" width="900"/></a>
+<a href="https://imgur.com/kJELcQw"><img src="https://i.imgur.com/5Ld3dqP.gif" title="source: imgur.com" width="900"/></a>
 
 <a href="https://mini-project-collection.netlify.app/">🔗 프로젝트 모음 사이트로 이동</a>
 
